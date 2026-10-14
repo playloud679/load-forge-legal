@@ -1,0 +1,4 @@
+:root{--bg:#fff;--fg:#111;--muted:#555;--accent:#047857}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f3f4f6;--muted:#9ca3af;--accent:#34d399}}
+body{background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,system-ui,sans-serif;margin:0 auto;padding:24px 16px 64px;max-width:640px}
+h1{font-size:1.7rem}h2{font-size:1.15rem;margin-top:2rem}a{color:var(--accent)}.muted{color:var(--muted);font-size:.9rem}
